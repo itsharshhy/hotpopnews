@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTPOPNEWS - Your Source for KPOP/POP News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .intro {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        .intro h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .intro p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .gallery-item {
+            flex-basis: calc(33.33% - 1rem);
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+    <script>
+        /* ... (showPage function) ... */
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HOTPOPNEWS</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showPage('homePage')">Home</a>
+        <a href="#" onclick="showPage('galleryPage')">Gallery</a>
+        <a href="#" onclick="showPage('contactPage')">Contact</a>
+    </nav>
+    <div class="page" id="homePage">
+        <div class="content">
+            <div class="intro">
+                <h2>About Us</h2>
+                <p>Welcome to HOTPOPNEWS, your ultimate source for the latest KPOP/POP news and updates.</p>
+            </div>
+            <!-- ... (Rest of the content) ... -->
+        </div>
+    </div>
+    <div class="page hide" id="galleryPage">
+        <div class="content">
+            <div class="intro">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <p><strong>BTS - Beyond the Scene</strong></p>
+                        <img src="https://people.com/thmb/mKWX8xTZIEL4_XHgMBbAOsaB-fc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(979x595:981x597)/bts-members-1-03a9c478f1794c448bcb5f74bf94812c.jpg" alt="BTS">
+                        <p>BTS is a KPOP boy band from BigHit Entertainment. The name "BTS" stands for Bulletproof Boyscouts in Korean, but they have recently changed their English name to Beyond the Scene. They have seven members, consisting of 3 rappers and 4 vocalists. BTS made their debut on June 12th, 2013. Their dedicated fanbase is known as "Army". The group has achieved remarkable milestones, including attending the Billboard Awards in America and winning the Top Social Artist Awards.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <p><strong>Taylor Swift</strong></p>
+                        <img src="https://i.insider.com/5fbabd6150e71a0011556b45" alt="Taylor Swift">
+                        <p>Taylor Swift is an American pop and country music singer-songwriter. Several of her songs, including "Shake It Off" (2014), "Blank Space" (2014), and "Look What You Made Me Do" (2017), topped the Billboard Hot 100 charts. She has received numerous awards for her music.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page hide" id="contactPage">
+        <div class="contact">
+            <div class="intro">
+                <h2>Contact Us</h2>
+                <p>Contact No: 123-456-789</p>
+                <p>Email: itsharsh@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
